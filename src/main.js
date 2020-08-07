@@ -7,12 +7,13 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 
 Vue.config.productionTip = false
-
-Vue.use(ElementUI)
-/* eslint-disable no-new */
-new Vue({
+/* eslint-disable */
+Vue.use( ElementUI )
+new Vue( {
   el: '#app',
   router,
-  components: { App },
+  components: {
+    App
+  },
   template: '<App/>'
-})
+} )
